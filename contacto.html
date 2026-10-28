@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Luana Bellido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CONTÁCTAME</h1>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="formacion.html">FORMACIÓN</a>
+            <a href="proyecto.html">PROYECTOS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+        
+    <main>
+        <h2>Información de Contacto</h2>
+        <table>
+            <tr><th>Medio</th><th>Datos</th></tr>
+            <tr><td>Email</td><td>luana.bellido.derecho@gmail.com</td></tr>
+            <tr><td>Celular</td><td>999 999 999</td></tr>
+            <tr><td>Ciudad</td><td>Lima, Perú</td></tr>
+            <tr><td>LinkedIn</td><td>linkedin.com/in/luanabellido</td></tr>
+        </table>
+        
+        <form action="#" method="post">
+         <fieldset>
+            <legend>Envíame un mensaje</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="caso">Caso:</label>
+            <select id="caso" name="caso">
+            <option>Penal</option>
+            <option>Civil</option>
+            <option>Familiar</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <input type="submit" value="Enviar">
+         </fieldset>
+        </form>
+    </main>
+    <footer>© 2026 Luana Bellido</footer>
+    <script src="script.js"></script>
+</body>
+</html>
